@@ -14,7 +14,7 @@ import { User, UserSchema } from '@nestjs-microservices/shared';
       imports: [ConfigModule],
       useFactory: (configService: ConfigService) => ({
         uri: configService.get<string>('MONGODB_URI') || 
-            //  'mongodb+srv://db_user:FQWmM8m12eCn99hv@cluster1.jatlwmb.mongodb.net/microservices-learning?retryWrites=true&w=majority',
+            'xxx',
       }),
       inject: [ConfigService],
     }),
