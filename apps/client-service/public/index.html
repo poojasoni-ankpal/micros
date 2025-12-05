@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Dashboard</h1>
+            <p>Users and Orders</p>
+        </header>
+
+        <div class="tabs">
+            <button class="tab-button active" onclick="showTab('users')">👤 Users</button>
+            <button class="tab-button" onclick="showTab('orders')">📦 Orders</button>
+        </div>
+
+        <!-- Users Tab -->
+        <div id="users-tab" class="tab-content active">
+            <div class="grid">
+                <!-- Create User -->
+                <div class="card">
+                    <h2>➕ Create User</h2>
+                    <form id="createUserForm" onsubmit="createUser(event)">
+                        <input type="text" name="username" placeholder="Username" required minlength="3">
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="password" name="password" placeholder="Password" required minlength="6">
+                        <input type="text" name="fullName" placeholder="Full Name (optional)">
+                        <button type="submit">Create User</button>
+                    </form>
+                </div>
+
+                <!-- List Users -->
+                <div class="card">
+                    <h2>📋 All Users</h2>
+                    <button onclick="fetchAllUsers()" class="btn-secondary">Refresh List</button>
+                    <div id="usersList" class="result"></div>
+                </div>
+
+                <!-- Get User by ID -->
+                <div class="card">
+                    <h2>🔍 Find User by ID</h2>
+                    <div class="input-group">
+                        <input type="text" id="userId" placeholder="Enter User ID">
+                        <button onclick="fetchUserById()">Search</button>
+                    </div>
+                    <div id="userResult" class="result"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Orders Tab -->
+        <div id="orders-tab" class="tab-content">
+            <div class="grid">
+                <!-- Create Order -->
+                <div class="card">
+                    <h2>➕ Create Order</h2>
+                    <form id="createOrderForm" onsubmit="createOrder(event)">
+                        <input type="text" name="product" placeholder="Product Name" required>
+                        <input type="number" name="amount" placeholder="Amount" required min="0" step="0.01">
+                        <input type="text" name="userId" placeholder="User ID" required>
+                        <input type="text" name="description" placeholder="Description (optional)">
+                        <button type="submit">Create Order</button>
+                    </form>
+                </div>
+
+                <!-- List Orders -->
+                <div class="card">
+                    <h2>📋 All Orders</h2>
+                    <button onclick="fetchAllOrders()" class="btn-secondary">Refresh List</button>
+                    <div id="ordersList" class="result"></div>
+                </div>
+
+                <!-- Get Order by ID -->
+                <div class="card">
+                    <h2>🔍 Find Order by ID</h2>
+                    <div class="input-group">
+                        <input type="text" id="orderId" placeholder="Enter Order ID">
+                        <button onclick="fetchOrderById()">Search</button>
+                    </div>
+                    <div id="orderResult" class="result"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="status-bar">
+            <div id="status" class="status">Ready</div>
+        </div>
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+</html>

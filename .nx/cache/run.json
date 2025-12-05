@@ -1,0 +1,9 @@
+{
+  "run": {
+    "command": "nx run-many --target=start:dev --projects=api-gateway,user-service,order-service,client-service",
+    "startTime": "2025-12-04T12:25:10.892Z",
+    "endTime": "2025-12-04T12:25:10.920Z",
+    "inner": false
+  },
+  "tasks": []
+}

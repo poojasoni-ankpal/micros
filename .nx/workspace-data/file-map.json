@@ -1,0 +1,232 @@
+{
+  "version": "6.0",
+  "nxVersion": "22.1.3",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "12634402967133909834"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "9555875142989992828"
+      },
+      {
+        "file": "CLIENT-SERVICE.md",
+        "hash": "12312332646728309104"
+      },
+      {
+        "file": "COMMUNICATION.md",
+        "hash": "7313989836065717182"
+      },
+      {
+        "file": "MONGODB-CRUD-SETUP.md",
+        "hash": "14127105313047258161"
+      },
+      {
+        "file": "README.md",
+        "hash": "13408464382999289361"
+      },
+      {
+        "file": "START-UI.md",
+        "hash": "10269595247624655644"
+      },
+      {
+        "file": "TESTING.md",
+        "hash": "8512308219164658068"
+      },
+      {
+        "file": "apps/api-gateway/src/api-gateway.controller.spec.ts",
+        "hash": "14279982999950780545"
+      },
+      {
+        "file": "apps/api-gateway/src/api-gateway.controller.ts",
+        "hash": "16403487401997998932"
+      },
+      {
+        "file": "apps/api-gateway/src/api-gateway.module.ts",
+        "hash": "8062964320554114921"
+      },
+      {
+        "file": "apps/api-gateway/src/api-gateway.service.ts",
+        "hash": "4579853351109386346"
+      },
+      {
+        "file": "apps/api-gateway/src/main.ts",
+        "hash": "14350363574245605355"
+      },
+      {
+        "file": "apps/api-gateway/tsconfig.app.json",
+        "hash": "7820475430541862969"
+      },
+      {
+        "file": "apps/client-service/public/app.js",
+        "hash": "287758010099150470"
+      },
+      {
+        "file": "apps/client-service/public/index.html",
+        "hash": "8784559918634256539"
+      },
+      {
+        "file": "apps/client-service/public/styles.css",
+        "hash": "9673122041274281764"
+      },
+      {
+        "file": "apps/client-service/src/client-service.controller.spec.ts",
+        "hash": "2889609417806979870"
+      },
+      {
+        "file": "apps/client-service/src/client-service.controller.ts",
+        "hash": "12315128605935820380"
+      },
+      {
+        "file": "apps/client-service/src/client-service.module.ts",
+        "hash": "1136699264915561684"
+      },
+      {
+        "file": "apps/client-service/src/client-service.service.ts",
+        "hash": "2691923391771346224"
+      },
+      {
+        "file": "apps/client-service/src/main.ts",
+        "hash": "6884677672883453583"
+      },
+      {
+        "file": "apps/client-service/tsconfig.app.json",
+        "hash": "15331076203861687972"
+      },
+      {
+        "file": "apps/microservices-learning/src/app.controller.spec.ts",
+        "hash": "2727664763654384995"
+      },
+      {
+        "file": "apps/microservices-learning/src/app.controller.ts",
+        "hash": "4552329938751326480"
+      },
+      {
+        "file": "apps/microservices-learning/src/app.module.ts",
+        "hash": "11673476679848632172"
+      },
+      {
+        "file": "apps/microservices-learning/src/app.service.ts",
+        "hash": "16892833931858030153"
+      },
+      {
+        "file": "apps/microservices-learning/src/main.ts",
+        "hash": "6783086878492621953"
+      },
+      {
+        "file": "apps/microservices-learning/tsconfig.app.json",
+        "hash": "11956382120823087412"
+      },
+      {
+        "file": "apps/order-service/src/main.ts",
+        "hash": "10644824270854409416"
+      },
+      {
+        "file": "apps/order-service/src/order-service.controller.spec.ts",
+        "hash": "16764348962910629324"
+      },
+      {
+        "file": "apps/order-service/src/order-service.controller.ts",
+        "hash": "13594471159982304761"
+      },
+      {
+        "file": "apps/order-service/src/order-service.module.ts",
+        "hash": "11725872777098519297"
+      },
+      {
+        "file": "apps/order-service/src/order-service.service.ts",
+        "hash": "4625264379562484872"
+      },
+      {
+        "file": "apps/order-service/tsconfig.app.json",
+        "hash": "6831433899239901308"
+      },
+      {
+        "file": "apps/user-service/src/app.controller.ts",
+        "hash": "3548873901008912106"
+      },
+      {
+        "file": "apps/user-service/src/main.ts",
+        "hash": "1514036307946614156"
+      },
+      {
+        "file": "apps/user-service/src/user-service.controller.spec.ts",
+        "hash": "5263827738583464730"
+      },
+      {
+        "file": "apps/user-service/src/user-service.controller.ts",
+        "hash": "12907481507367095125"
+      },
+      {
+        "file": "apps/user-service/src/user-service.module.ts",
+        "hash": "8958371090612487286"
+      },
+      {
+        "file": "apps/user-service/src/user-service.service.ts",
+        "hash": "17897470860495222922"
+      },
+      {
+        "file": "apps/user-service/tsconfig.app.json",
+        "hash": "15920396627502331238"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "3852693644638777996"
+      },
+      {
+        "file": "nest-cli.json",
+        "hash": "8046177681141140802"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "3110905833609941821"
+      },
+      {
+        "file": "package.json",
+        "hash": "17513893319439342976"
+      },
+      {
+        "file": "shared/src/index.ts",
+        "hash": "3680361175353536794"
+      },
+      {
+        "file": "shared/src/lib/dto/create-order.dto.ts",
+        "hash": "4580743079320322647"
+      },
+      {
+        "file": "shared/src/lib/dto/create-user.dto.ts",
+        "hash": "12089036351165495055"
+      },
+      {
+        "file": "shared/src/lib/dto/update-order.dto.ts",
+        "hash": "14055202507432010693"
+      },
+      {
+        "file": "shared/src/lib/dto/update-user.dto.ts",
+        "hash": "13645933512437361623"
+      },
+      {
+        "file": "shared/src/lib/schemas/order.schema.ts",
+        "hash": "528934778368529073"
+      },
+      {
+        "file": "shared/src/lib/schemas/user.schema.ts",
+        "hash": "5286265065791094889"
+      },
+      {
+        "file": "tsconfig.build.json",
+        "hash": "276845246908739715"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "1121039243855002132"
+      }
+    ]
+  },
+  "externalNodesHash": "15733271332928741063"
+}
